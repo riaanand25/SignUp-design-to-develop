@@ -1,4 +1,4 @@
-body {
+* {
     font-family: "Poppins", serif;
 }
 
@@ -15,14 +15,13 @@ body {
     max-width: 400px;
     width: 100%;
 }
+/* .signup-form h4{
+    font-size: 36px;
+} */
 
 .create {
     background-color: rgb(238, 29, 29);
     padding: 0 120px;
-}
-
-.signup-form h2 {
-    font-size: 36px
 }
 
 .search-box {
@@ -164,17 +163,154 @@ h5 {
     margin-right: 10px;
 }
 
-/* input {
-    font-size: 16px;
-    border: none;
-    border-bottom: 2px solid rgb(77, 76, 76);  
-     outline: none; 
-} */
-
 .signup-form .form-control {
     font-size: 16px;
     border: none;
     border-bottom: 1px solid rgb(77, 76, 76);
     outline: none;
     border-radius: 0;
+}
+.list-group{
+    margin-left: 40px ;
+}
+.list-group .list-group-item {
+    border: none;
+}
+/* 
+span.carousel-control-prev-icon{
+    position: absolute;
+    left: 0px;
+    background-color: #737272;
+
+} */
+
+
+.flash-sales {
+    padding: 40px 0;
+}
+
+.product-card {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    transition: 0.3s;
+    background: #F5F5F5;
+}
+.product-card:hover {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+.discount-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #dc3545;
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+.product-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #dc3545;
+}
+.old-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 5px;
+}
+
+.view-btn {
+    background: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+.fav-icon, .view-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #888;
+    cursor: pointer;
+    font-size: 18px;
+}
+.view-icon {
+    right: 40px;
+}
+.fav-icon:hover, .view-icon:hover {
+    color: #dc3545;
+}
+
+.container.flash{
+    margin-top: 10%;
+}
+
+.view a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #dc3545;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+h2.discount-badge{
+    font-size: 12px;
+}
+.stars i{
+    color: #FFAD33;
+}
+.product-card{
+    text-align: left;
+}
+i.fas.fa-eye.view-icon{
+    position: absolute;
+    top: 45px;
+    right: 10px;
+}
+
+#diff{
+    color: gray;
+}
+span.fw-bold.countdown{
+    font-size: 32px;
+}
+
+.container.category{
+    margin-top: 5%;
+}
+
+.category-block{
+    border: #000 solid 1px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.category-block-camera{
+    background-color: #dc3545;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px
+}
+
+span.text-danger.fw-bold.mt-4{
+    border-left: #dc3545 15px solid;
+    margin-bottom: 30px;
+}
+
+.container.selling
+{
+    margin-top: 5%;
 }
